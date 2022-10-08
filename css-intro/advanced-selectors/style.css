@@ -2,7 +2,7 @@ input[checked] {
     margin-left: 50px;
 }
 
-label input {
+label  {
     text-transform: uppercase;
 }
 
