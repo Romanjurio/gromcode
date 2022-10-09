@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+.rectangle {
+    width: 100px;
+    height: 50px;
+    background-color: forestgreen;
+    border-radius: 16px;
+    margin: 50px;
+}
+
+.oval {
+    width: 100px;
+    height: 50px;
+    background-color: darkmagenta;
+    margin: 50px;
+    border-radius: 50%;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    margin: 50px;
+    border-radius: 50%;
+}
+
+.triangle {
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    border: 50px solid transparent;
+    border-top-color: brown;
+}
