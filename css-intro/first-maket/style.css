@@ -12,10 +12,10 @@
 
 .blue-rectangle {
     background-color: blue;
+    margin: 50px;
 }
 
 .rectangle {
     border: 2px solid black;
-    margin: 50px;
     padding: 50px;
 }
