@@ -1,0 +1,21 @@
+.pink-rectangle {
+    background-color: pink;
+}
+
+.green-rectangle {
+    background-color: green;
+}
+
+.yellow-rectangle {
+    background-color: yellow;
+}
+
+.blue-rectangle {
+    background-color: blue;
+}
+
+.rectangle {
+    border: 2px solid black;
+    margin: 50px;
+    padding: 50px;
+}
