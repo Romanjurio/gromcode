@@ -9,3 +9,7 @@ div.block {
     display: flex;
     flex-wrap: wrap;
 }
+
+.block {
+  flex-grow: 1;
+}
