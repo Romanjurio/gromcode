@@ -1,13 +1,13 @@
 .header {
     position: fixed;
     background-color: darkturquoise;
-    height: 40px;
     width: 100%;
     z-index: 1;
 }
 
 .nav-list {
     list-style-type: none;
+    height: 40px;
 }
 
 .nav-item {
@@ -15,6 +15,8 @@
     margin-left: 16px;
     color: white;
     height: 40px;
+    position: relative;
+    top: 20px;
 }
 
 .content {
@@ -26,9 +28,9 @@
     width: 200px;
     height: 200px;
     background-color: aquamarine;
-    position: relative;
-    top: 50%;
-    left: 50%;
+    position: absolute;
+    top: 60%;
+    left: 40%;
 }
 
 .ear {
