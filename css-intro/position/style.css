@@ -8,11 +8,13 @@
     width: 100%;
     z-index: 1;
     height: 40px;
-
+    line-height: 40px;
 }
 
 .nav-list {
     list-style-type: none;
+    height: 40px;
+    margin-top: 0;
 }
 
 .nav-item {
