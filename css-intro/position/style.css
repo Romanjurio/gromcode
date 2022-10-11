@@ -3,7 +3,8 @@
     background-color: darkturquoise;
     width: 100%;
     z-index: 1;
-    line-height: 40px;
+    height: 40px;
+        line-height: 40px;
 }
 
 .nav-list {
@@ -14,8 +15,7 @@
     float: left;
     margin-left: 16px;
     color: white;
-    position: relative;
-    top: 50%;
+
 }
 
 .content {
