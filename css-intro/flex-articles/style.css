@@ -1,6 +1,7 @@
 
+
 * {
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 
 header {
@@ -8,7 +9,7 @@ header {
 }
 
 h1 {
-    margin:  8px auto ;
+    margin: 8px auto;
     padding: auto;
 }
 
