@@ -2,7 +2,7 @@
     margin: 16px;
 }
 
-.dropdown .menu-button {
+.menu-button {
     padding: 16px;
     background-color: darkgreen;
     opacity: 0.8;
@@ -10,7 +10,7 @@
     color: white;
     cursor: pointer;
     display: inline-block;
-    position: absolute;
+
 }
 
 .menu-button:hover {
