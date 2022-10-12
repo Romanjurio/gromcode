@@ -9,17 +9,13 @@
     font-size: 16px;
     color: white;
     cursor: pointer;
-    display: inline-block;
     position: absolute;
 }
 
-.dropdown:hover {
+.menu-button:hover {
     background-color: darkgreen;
     opacity: 1;
-    margin: 16px;
-    display: inline-block;
-    width: 95px;
-
+    display: inline;
 }
 
 .menu-list {
