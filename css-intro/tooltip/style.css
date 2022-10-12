@@ -1,0 +1,20 @@
+.text {
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    position: relative;
+    margin: 16px;
+}
+
+.tooltip {
+    display: none;
+}
+
+.text:hover .tooltip {
+    display: block;
+    background-color: grey;
+    color: white;
+    border-radius: 4px;
+    padding: 8px;
+    position: absolute;
+    bottom: -40px;
+}
