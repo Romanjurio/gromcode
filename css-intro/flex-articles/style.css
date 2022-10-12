@@ -4,11 +4,8 @@
 
 header {
     display: flex;
-}
-
-h1 {
-    margin: auto;
-    padding: 16px;
+    justify-content: center;
+    align-items: center;
 }
 
 p {
