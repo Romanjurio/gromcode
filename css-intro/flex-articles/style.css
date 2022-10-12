@@ -11,6 +11,10 @@ h1 {
     padding: auto;
 }
 
+p {
+    margin: 0;
+}
+
 .article {
     margin: 8px;
     padding: 16px;
@@ -22,6 +26,4 @@ h1 {
 .articles-list {
     display: flex;
     flex-wrap: wrap;
-    margin: 8px;
-    padding: 16px;
 }
