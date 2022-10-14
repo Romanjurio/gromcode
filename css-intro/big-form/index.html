@@ -9,11 +9,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="stylesheet" href="style.css">
   <style>
-    input,
-    textarea,
-    select, button {
+    input {
       display: block;
       margin: 8px;
+    }
+
+    input[type="radio"] {
+      margin: 0;
     }
 
     form {
@@ -22,6 +24,13 @@
 
     input[type="radio"] {
       display: inline-block;
+    }
+
+    textarea,
+    select,
+    button,
+    .languages {
+      margin-left: 8px;
     }
   </style>
 </head>
