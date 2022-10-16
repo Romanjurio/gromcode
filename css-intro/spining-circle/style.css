@@ -6,8 +6,10 @@
     display: flex;
     width: 100vw;
     height: 100vh;
-    align-items: center;
-    justify-content: center;
+}
+
+.spinner {
+  margin: auto;
 }
 
 .spinner-text {
@@ -35,7 +37,7 @@
     border: 4px solid lightgrey;
     border-top: 4px solid black;
     border-radius: 50%;
-    animation: rotating 2s linear;
+    animation: rotating 2s linear infinite;
     margin: 0 auto 8px;
 }
 
