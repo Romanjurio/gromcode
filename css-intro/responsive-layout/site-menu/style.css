@@ -1,40 +1,61 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
 
 .header {
-  height: 3em;
-  padding: 0 1em;
-  background-color: #eee;
-  display: flex;
+    height: 3em;
+    background-color: #eee;
+    padding-left: 1em;
+    padding-right: 1em;
+    display: flex;
+    align-items: center;
 }
 
-button {
-  font-size: 2em;
-  padding: 0;
-  border: none;
-  align-items: center;
-  cursor: pointer;
+.header_button {
+    font-size: 2em;
+    padding: 0;
+    border: none;
+    cursor: pointer;
 }
 
 .nav-list {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.navigation {
-  width: 20%;
+    padding: 0.5em;
+    list-style-type: none;
+    width: 20vw;
 }
 
 .nav-list-item {
-    padding: 0.5em;
     background-color: #808080;
+    height: 2em;
+    margin-bottom: 0.5em;
+    display: flex;
+    align-items: center;
+    padding: 0 0.5em;
+}
+
+.nav-list-link {
+    text-decoration: none;
     color: white;
-    
+    width: 100%;
+    flex-grow: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+@media screen and (min-width: 600px) {
+  .header_button {
+    visibility: hidden;
+  }
+}
+
+@media  screen and (max-width: 600px) {
+  .nav-list {
+    visibility: hidden;
+  }
 }
