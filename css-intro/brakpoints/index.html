@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .navigation,
+    .products-list,
+    .news {
+      display: flex;
+    }
+
+    span {
+      text-transform: lowercase;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      padding: 8px;
+      border-radius: 4px;
+      background-color: #faebd7;
+      margin: auto;
+    }
+
+    .navigation {
+      background-color: #ff7f50;
+      height: 200px;
+      flex: 1;
+    }
+
+    .products-list {
+      background-color: #006400;
+      height: 200px;
+      flex: 1;
+    }
+
+    .news {
+      background-color: #0ff;
+      height: 200px;
+      flex: 1;
+    }
+
+    @media screen and (min-width: 600px) {
+      .main-content {
+        display: flex;
+        flex: 2;
+      }
+    }
+
+    @media screen and (min-width: 900px) {
+      .main {
+        display: flex;
+      }
+
+    }
+  </style>
+</head>
+
+
+<body>
+  <section class="main">
+    <div class="main-content">
+      <div class="navigation"><span>Navigation</span></div>
+      <div class="products-list"><span>Products List</span></div>
+    </div>
+    <div class="news"><span>News</span></div>
+  </section>
+</body>
+
+</html>
