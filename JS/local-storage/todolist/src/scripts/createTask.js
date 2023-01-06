@@ -9,7 +9,7 @@ const taskInput = document.querySelector('.task-input');
 
 export let state = updateTask(tasks);
 
-function createTask() {
+function crateTask() {
     if (taskInput.value == '') {
         return;
     }
@@ -24,4 +24,4 @@ function createTask() {
     taskInput.value = '';
 }
 
-btn.addEventListener('click', createTask);
+btn.addEventListener('click', crateTask);
